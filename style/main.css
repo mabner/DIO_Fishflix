@@ -77,7 +77,7 @@ header nav a:hover {
 
 .botao:hover {
 	background-color: rgba(255, 255, 255, 0.8);
-	color: black;
+	color: var(--preto);
 }
 
 .botao i {
@@ -90,6 +90,10 @@ header nav a:hover {
 
 .filme-principal .container {
 	width: 60%;
+}
+
+.carrosel-filmes {
+	margin-top: 4px;
 }
 
 .my-slider .item {
