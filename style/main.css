@@ -93,15 +93,45 @@ header nav a:hover {
 }
 
 .my-slider .item {
-	height: 400px;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
-.my-slider .item img {
+.item .titulo {
+	margin-top: 8%;
+	margin-left: 8px;
+	font-size: 18px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.item .descricao {
+	margin-top: 16px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.my-slider .item-1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/img/image-1.jpg");
+	background-size: cover;
 	height: 200px;
-	width: auto;
+}
+
+.my-slider .item-2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/img/image-2.jpg");
+	background-size: cover;
+	height: 200px;
+}
+.my-slider .item-3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/img/image-3.jpg");
+	background-size: cover;
+	height: 200px;
+}
+.my-slider .item-4 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/img/image-4.jpg");
+	background-size: cover;
+	height: 200px;
 }
