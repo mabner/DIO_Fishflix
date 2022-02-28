@@ -12,7 +12,7 @@
 /* elementos base */
 body {
 	background: var(--preto);
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: white;
 }
 
@@ -53,6 +53,12 @@ header nav a:hover {
 	align-items: flex-start;
 }
 
+.filme-professor-polvo {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("/img/image-1.jpg");
+		background-size: cover;
+}
+
 .filme-principal .descricao {
 	margin-top: 10px;
 	margin-bottom: 40px;
@@ -61,7 +67,6 @@ header nav a:hover {
 .filme-principal .titulo {
 	margin-top: 15%;
 	font-size: 40px;
-	font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 .botao {
@@ -71,7 +76,7 @@ header nav a:hover {
 	padding: 14px 24px;
 	margin-right: 15px;
 	font-size: 12px;
-	cursor: pointer;
+	text-decoration: none;
 	transition: 0.3s ease all;
 }
 
@@ -96,6 +101,15 @@ header nav a:hover {
 	margin-top: 4px;
 }
 
+.corrosel-titulo {
+	text-decoration: none;
+	color: #fff;
+}
+
+.corrosel-titulo:hover {
+	text-decoration: underline;
+}
+
 .my-slider .item {
 	margin-left: 4px;
 	margin-right: 4px;
@@ -105,7 +119,6 @@ header nav a:hover {
 	margin-top: 8%;
 	margin-left: 8px;
 	font-size: 18px;
-	font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 .item .descricao {
@@ -138,4 +151,21 @@ header nav a:hover {
 		url("/img/image-4.jpg");
 	background-size: cover;
 	height: 200px;
+}
+
+.img-titulo {
+	width: 40%;
+	height: auto;
+	/* object-fit: cover; */
+}
+
+.extra-info {
+	color: #a3a3a3;
+	display: inline-block;
+	position: relative;
+}
+
+.classif-audiencia {
+	border: 1px solid #a3a3a3;
+	padding: 0 5px;
 }
