@@ -56,7 +56,25 @@ header nav a:hover {
 .filme-professor-polvo {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 		url("/img/image-1.jpg");
-		background-size: cover;
+	background-size: cover;
+}
+
+.filme-seaspiracy {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("/img/image-2.jpg");
+	background-size: cover;
+}
+
+.filme-embuscadoscorais {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("/img/image-3.jpg");
+	background-size: cover;
+}
+
+.filme-missionblue {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("/img/image-4.jpg");
+	background-size: cover;
 }
 
 .filme-principal .descricao {
